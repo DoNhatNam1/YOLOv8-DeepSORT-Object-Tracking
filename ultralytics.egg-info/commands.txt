@@ -1,0 +1,7 @@
+
+#Install dependencys
+pip install -e '.[dev]'
+
+
+#Start testing Video training metric
+python predict.py model=yolov8l.pt source="test.mp4"
